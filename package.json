@@ -11,7 +11,9 @@
   "license": "ISC",
   "bin": {
     "nls": "scripts/listdir.js",
-    "npwd": "scripts/pwd.js"
+    "npwd": "scripts/pwd.js",
+    "ntouch": "scripts/touch.js",
+    "necho": "scripts/echo.js"
   },
   "dependencies": {
     "colors": "^1.4.0"
