@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "nls": "scripts/listdir.js"
+    "nls": "scripts/listdir.js",
+    "npwd": "scripts/pwd.js"
   },
   "dependencies": {
     "colors": "^1.4.0"
