@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "list": "./listdir.js"
+    "nls": "scripts/listdir.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
   }
 }
