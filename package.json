@@ -14,7 +14,8 @@
     "npwd": "scripts/pwd.js",
     "ntouch": "scripts/touch.js",
     "necho": "scripts/echo.js",
-    "ncat": "scripts/cat.js"
+    "ncat": "scripts/cat.js",
+    "nos": "scripts/machine.js"
   },
   "dependencies": {
     "colors": "^1.4.0"
