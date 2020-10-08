@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const fs = require('fs')
+const colors = require('colors');
 let outputString = ''
 process.argv.forEach((val, index) => {
     if((index > 1) && (index < process.argv.length - 1)){
@@ -9,4 +9,4 @@ process.argv.forEach((val, index) => {
         outputString += val
     }
 })
-console.log(outputString)
+console.log(outputString.red.bgWhite.bold)
